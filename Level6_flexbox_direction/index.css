@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    background-color: aliceblue;
+    height: 700px;
+    width: 1300px;
+    padding: 10px;
+    margin: 20px;
+    border: black solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+.box{
+    height: 75px;
+    width: 75px;
+    border: black solid;
+    text-align: center;
+    margin: 5px;
+}
+#heading{
+    text-align: center;
+}
+#box1{ background-color: brown;}
+#box2{ background-color: rgb(165, 42, 71);}
+#box3{ background-color: rgb(42, 165, 91);
+order: 7;}
+#box4{ background-color: rgb(58, 42, 165);}
+#box5{ background-color: rgb(142, 165, 42);
+flex-grow: 0;}
+#box6{ background-color: rgb(165, 42, 157);
+align-self: center;}
+#box7{ background-color: rgb(165, 42, 93);
+flex-shrink: 4;}
